@@ -1,0 +1,357 @@
+repo_name: ankurkumarz/spring-ai
+report_id: 8921bac7eb9a017841756791a1404c96
+repo_type: Public
+timestamp: '2023-12-14T15:16:04+00:00'
+requested_by: habuma
+provider: github
+branch: main
+detected_tools_count: 31
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: Smalltalk
+  description: An object-oriented, dynamically typed reflective programming language
+  website_url: http://en.wikipedia.org/wiki/Smalltalk
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2624/no-img-open-source.png
+  detection_source: Repo Metadata
+- name: ".NET Core"
+  description: An Open Source, General-Purpose Development Platform Maintained by
+    Microsoft and the .NET Community
+  website_url: https://docs.microsoft.com/en-us/dotnet/core/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
+  detection_source: vector-stores/spring-ai-milvus-store/src/test/resources/docker-compose.yml
+  last_updated_by: Christian Tzolov
+  last_updated_on: 2023-09-19 12:12:44.000000000 Z
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source: spring-ai-azure-openai/pom.xml
+  last_updated_by: Mark Pollack
+  last_updated_on: 2023-08-05 21:15:30.000000000 Z
+- name: Minio
+  description: AWS S3 open source alternative written in Go
+  website_url: https://minio.io/
+  license: AGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Cloud Storage
+  image_url: https://img.stackshare.io/service/4485/gTawkyAA.png
+  detection_source: vector-stores/spring-ai-milvus-store/src/test/resources/docker-compose.yml
+  last_updated_by: Christian Tzolov
+  last_updated_on: 2023-09-19 12:12:44.000000000 Z
+- name: Neo4j
+  description: The world’s leading Graph Database
+  website_url: http://www.neo4j.com/
+  license: GPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Graph Databases
+  image_url: https://img.stackshare.io/service/1482/FbkjM42a.png
+  detection_source: vector-stores/spring-ai-neo4j-store/pom.xml
+  last_updated_by: Gerrit Meier
+  last_updated_on: 2023-09-21 11:15:16.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source: vector-stores/spring-ai-pgvector-store/pom.xml
+  last_updated_by: Christian Tzolov
+  last_updated_on: 2023-09-15 20:39:01.000000000 Z
+- name: pgvector
+  description: Open-source vector similarity search for Postgres
+  website_url: https://github.com/pgvector/pgvector/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
+  detection_source: LICENSE.txt
+  last_updated_by: Mark Pollack
+  last_updated_on: 2023-07-24 23:37:06.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source: ".github/workflows/artifactory-milestone-release.yml"
+  last_updated_by: Mark Pollack
+  last_updated_on: 2023-08-04 15:54:13.000000000 Z
+- name: cURL
+  description: Command Line Tool and Library for Transferring Data With URLs
+  website_url: http://curl.haxx.se/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: File Transfer
+  image_url: https://img.stackshare.io/service/6552/curl-logo.png
+  detection_source: vector-stores/spring-ai-milvus-store/src/test/resources/docker-compose.yml
+  last_updated_by: Christian Tzolov
+  last_updated_on: 2023-09-19 12:12:44.000000000 Z
+- name: HTML
+  description: Hypertext Markup Language for creating web pages.
+  website_url: http://
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source: spring-ai-docs/src/main/javadoc/overview.html
+  last_updated_by: Mark Pollack
+  last_updated_on: 2023-07-24 23:37:06.000000000 Z
+- name: LangChain
+  description: Build AI apps with LLMs through composability
+  website_url: https://github.com/hwchase17/langchain
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source: LICENSE.txt
+  last_updated_by: Mark Pollack
+  last_updated_on: 2023-07-24 23:37:06.000000000 Z
+- name: Milvus
+  description: An Open Source Vector Similarity Search Engine
+  website_url: https://milvus.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search Engines
+  image_url: https://img.stackshare.io/service/11462/UYESE3g6_400x400.jpg
+  detection_source: vector-stores/spring-ai-milvus-store/src/test/resources/docker-compose.yml
+  last_updated_by: Christian Tzolov
+  last_updated_on: 2023-09-19 12:12:44.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source: Repo Metadata
+- name: Ubuntu
+  description: The leading OS for PC, tablet, phone and cloud
+  website_url: http://www.ubuntu.com/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/3511/cof_orange_hex.jpg
+  detection_source: ".devcontainer/Dockerfile"
+  last_updated_by: Mark Pollack
+  last_updated_on: 2023-08-20 02:01:02.000000000 Z
+- name: com.squareup.retrofit2:converter-jackson
+  description: Type-safe HTTP client for Android and Java by Square, Inc
+  version: 2.9.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ankurkumarz/spring-ai/blob/main/spring-ai-spring-boot-autoconfigure/pom.xml
+  detection_source: spring-ai-spring-boot-autoconfigure/pom.xml
+  last_updated_by: Craig Walls
+  last_updated_on: 2023-08-31 21:42:40.000000000 Z
+- name: com.zaxxer:HikariCP
+  description: Ultimate JDBC Connection Pool
+  version: 4.0.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ankurkumarz/spring-ai/blob/main/vector-stores/spring-ai-pgvector-store/pom.xml
+  detection_source: vector-stores/spring-ai-pgvector-store/pom.xml
+  last_updated_by: Christian Tzolov
+  last_updated_on: 2023-09-15 20:39:01.000000000 Z
+- name: org.antlr:stringtemplate
+  description: StringTemplate is a java template engine for generating source code,
+    web pages, emails, or any other formatted text output
+  license: LAL-1.3
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source: spring-ai-core/pom.xml
+  last_updated_by: Mark Pollack
+  last_updated_on: 2023-08-15 21:46:59.000000000 Z
+- name: org.neo4j.driver:neo4j-java-driver
+  description: Access to the Neo4j graph database through Java
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source: vector-stores/spring-ai-neo4j-store/pom.xml
+  last_updated_by: Gerrit Meier
+  last_updated_on: 2023-09-21 11:15:16.000000000 Z
+- name: org.postgresql:postgresql
+  description: The PostgreSQL Driver JDBC4
+  version: 42.6.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ankurkumarz/spring-ai/blob/main/vector-stores/spring-ai-pgvector-store/pom.xml
+  detection_source: vector-stores/spring-ai-pgvector-store/pom.xml
+  last_updated_by: Christian Tzolov
+  last_updated_on: 2023-09-15 20:39:01.000000000 Z
+- name: org.springframework.boot:spring-boot-configuration-processor
+  description: Spring Boot Configuration Processor
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source: spring-ai-spring-boot-autoconfigure/pom.xml
+  last_updated_by: Mark Pollack
+  last_updated_on: 2023-08-22 23:42:28.000000000 Z
+- name: org.springframework.boot:spring-boot-starter
+  description: Core starter
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source: spring-ai-spring-boot-autoconfigure/pom.xml
+  last_updated_by: Craig Walls
+  last_updated_on: 2023-08-31 21:42:40.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-logging
+  description: Starter for logging using Logback. Default logging starter
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source: spring-ai-azure-openai/pom.xml
+  last_updated_by: Mark Pollack
+  last_updated_on: 2023-08-05 21:15:30.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-test
+  description: Starter for testing Spring Boot applications with libraries including
+    JUnit
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source: spring-ai-azure-openai/pom.xml
+  last_updated_by: Mark Pollack
+  last_updated_on: 2023-08-05 21:15:30.000000000 Z
+- name: org.springframework:spring-context-support
+  description: Spring Context Support
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source: spring-ai-azure-openai/pom.xml
+  last_updated_by: Mark Pollack
+  last_updated_on: 2023-08-05 21:15:30.000000000 Z
+- name: org.springframework:spring-jdbc
+  description: Spring JDBC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source: vector-stores/spring-ai-pgvector-store/pom.xml
+  last_updated_by: Christian Tzolov
+  last_updated_on: 2023-09-15 20:39:01.000000000 Z
+- name: org.springframework:spring-messaging
+  description: Spring Messaging
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source: spring-ai-core/pom.xml
+  last_updated_by: Mark Pollack
+  last_updated_on: 2023-08-15 21:46:59.000000000 Z
+- name: org.testcontainers:testcontainers
+  description: Isolated container management for Java code testing
+  version: 1.19.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/ankurkumarz/spring-ai/blob/main/vector-stores/spring-ai-milvus-store/pom.xml
+  detection_source: vector-stores/spring-ai-milvus-store/pom.xml
+  last_updated_by: Christian Tzolov
+  last_updated_on: 2023-09-19 12:12:44.000000000 Z
