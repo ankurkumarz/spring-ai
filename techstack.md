@@ -4,21 +4,21 @@
 ankurkumarz/spring-ai is built on the following main stack:
 
 - [Java](https://www.java.com) – Languages
-- [PostgreSQL](http://www.postgresql.org/) – Databases
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
-- [Neo4j](http://www.neo4j.com/) – Graph Databases
-- [Spring Framework](https://spring.io/projects/spring-framework) – Frameworks (Full Stack)
 - [Smalltalk](http://en.wikipedia.org/wiki/Smalltalk) – Languages
-- [Ubuntu](http://www.ubuntu.com/) – Operating Systems
-- [Minio](https://minio.io/) – Cloud Storage
-- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 - [.NET Core](https://docs.microsoft.com/en-us/dotnet/core/) – Frameworks (Full Stack)
-- [cURL](http://curl.haxx.se/) – File Transfer
-- [Milvus](https://milvus.io/) – Search Engines
-- [GitHub Actions](https://github.com/features/actions) – Continuous Integration
-- [LangChain](https://github.com/hwchase17/langchain) – Large Language Model Tools
+- [Spring Framework](https://spring.io/projects/spring-framework) – Frameworks (Full Stack)
+- [Milvus](https://milvus.io/) – Vector Databases
+- [Minio](https://minio.io/) – Cloud Storage
+- [Neo4j](http://www.neo4j.com/) – Graph Databases
+- [PostgreSQL](http://www.postgresql.org/) – Databases
 - [pgvector](https://github.com/pgvector/pgvector/) – Database Tools
 - [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- [cURL](http://curl.haxx.se/) – File Transfer
+- [LangChain](https://github.com/hwchase17/langchain) – Large Language Model Tools
+- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
+- [Ubuntu](http://www.ubuntu.com/) – Operating Systems
 
 Full tech stack [here](/techstack.md)
 
@@ -29,21 +29,21 @@ Full tech stack [here](/techstack.md)
 ankurkumarz/spring-ai is built on the following main stack:
 
 - <img width='25' height='25' src='https://img.stackshare.io/service/995/K85ZWV2F.png' alt='Java'/> [Java](https://www.java.com) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1028/ASOhU5xJ.png' alt='PostgreSQL'/> [PostgreSQL](http://www.postgresql.org/) – Databases
 - <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1482/FbkjM42a.png' alt='Neo4j'/> [Neo4j](http://www.neo4j.com/) – Graph Databases
-- <img width='25' height='25' src='https://img.stackshare.io/service/2006/spring-framework-project-logo.png' alt='Spring Framework'/> [Spring Framework](https://spring.io/projects/spring-framework) – Frameworks (Full Stack)
 - <img width='25' height='25' src='https://img.stackshare.io/service/2624/no-img-open-source.png' alt='Smalltalk'/> [Smalltalk](http://en.wikipedia.org/wiki/Smalltalk) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/3511/cof_orange_hex.jpg' alt='Ubuntu'/> [Ubuntu](http://www.ubuntu.com/) – Operating Systems
-- <img width='25' height='25' src='https://img.stackshare.io/service/4485/gTawkyAA.png' alt='Minio'/> [Minio](https://minio.io/) – Cloud Storage
-- <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
 - <img width='25' height='25' src='https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png' alt='.NET Core'/> [.NET Core](https://docs.microsoft.com/en-us/dotnet/core/) – Frameworks (Full Stack)
-- <img width='25' height='25' src='https://img.stackshare.io/service/6552/curl-logo.png' alt='cURL'/> [cURL](http://curl.haxx.se/) – File Transfer
-- <img width='25' height='25' src='https://img.stackshare.io/service/11462/UYESE3g6_400x400.jpg' alt='Milvus'/> [Milvus](https://milvus.io/) – Search Engines
-- <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
-- <img width='25' height='25' src='https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg' alt='LangChain'/> [LangChain](https://github.com/hwchase17/langchain) – Large Language Model Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/2006/spring-framework-project-logo.png' alt='Spring Framework'/> [Spring Framework](https://spring.io/projects/spring-framework) – Frameworks (Full Stack)
+- <img width='25' height='25' src='https://img.stackshare.io/service/11462/UYESE3g6_400x400.jpg' alt='Milvus'/> [Milvus](https://milvus.io/) – Vector Databases
+- <img width='25' height='25' src='https://img.stackshare.io/service/4485/gTawkyAA.png' alt='Minio'/> [Minio](https://minio.io/) – Cloud Storage
+- <img width='25' height='25' src='https://img.stackshare.io/service/1482/FbkjM42a.png' alt='Neo4j'/> [Neo4j](http://www.neo4j.com/) – Graph Databases
+- <img width='25' height='25' src='https://img.stackshare.io/service/1028/ASOhU5xJ.png' alt='PostgreSQL'/> [PostgreSQL](http://www.postgresql.org/) – Databases
 - <img width='25' height='25' src='https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png' alt='pgvector'/> [pgvector](https://github.com/pgvector/pgvector/) – Database Tools
 - <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- <img width='25' height='25' src='https://img.stackshare.io/service/6552/curl-logo.png' alt='cURL'/> [cURL](http://curl.haxx.se/) – File Transfer
+- <img width='25' height='25' src='https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg' alt='LangChain'/> [LangChain](https://github.com/hwchase17/langchain) – Large Language Model Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
+- <img width='25' height='25' src='https://img.stackshare.io/service/3511/cof_orange_hex.jpg' alt='Ubuntu'/> [Ubuntu](http://www.ubuntu.com/) – Operating Systems
 
 Full tech stack [here](/techstack.md)
 
@@ -54,7 +54,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [ankurkumarz/spring-ai](https://github.com/ankurkumarz/spring-ai)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|31<br/>Tools used|01/05/24 <br/>Report generated|
+|31<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -108,9 +108,17 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
-## <img src='https://img.stackshare.io/databases.svg'/> Data (4)
+## <img src='https://img.stackshare.io/databases.svg'/> Data (5)
 <table><tr>
   <td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/11462/UYESE3g6_400x400.jpg' alt='Milvus'>
+  <br>
+  <sub><a href="https://milvus.io/">Milvus</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/4485/gTawkyAA.png' alt='Minio'>
   <br>
   <sub><a href="https://minio.io/">Minio</a></sub>
@@ -187,7 +195,7 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
-## Other (5)
+## Other (4)
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/2270/no-img-open-source.png' alt='HTML'>
@@ -201,14 +209,6 @@ Full tech stack [here](/techstack.md)
   <img width='36' height='36' src='https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg' alt='LangChain'>
   <br>
   <sub><a href="https://github.com/hwchase17/langchain">LangChain</a></sub>
-  <br>
-  <sub></sub>
-</td>
-
-<td align='center'>
-  <img width='36' height='36' src='https://img.stackshare.io/service/11462/UYESE3g6_400x400.jpg' alt='Milvus'>
-  <br>
-  <sub><a href="https://milvus.io/">Milvus</a></sub>
   <br>
   <sub></sub>
 </td>
@@ -243,7 +243,7 @@ Full tech stack [here](/techstack.md)
 |[com.zaxxer:HikariCP](https://github.com/brettwooldridge/HikariCP)|v4.0.3|09/15/23|Christian Tzolov |Apache-2.0|N/A|
 |[org.antlr:stringtemplate](http://www.stringtemplate.org)|N/A|08/15/23|Mark Pollack |LAL-1.3|N/A|
 |[org.neo4j.driver:neo4j-java-driver](https://github.com/neo4j/neo4j-java-driver)|N/A|09/21/23|Gerrit Meier |Apache-2.0|N/A|
-|[org.postgresql:postgresql](http://jdbc.postgresql.org)|v42.6.0|09/15/23|Christian Tzolov |BSD-2-Clause|N/A|
+|[org.postgresql:postgresql](http://jdbc.postgresql.org)|v42.6.0|09/15/23|Christian Tzolov |BSD-2-Clause|[CVE-2024-1597](https://github.com/advisories/GHSA-24rp-q3w6-vc56) (Critical)<br/>[](https://github.com/advisories/GHSA-xfg6-62px-cxc2) (Critical)|
 |[org.springframework.boot:spring-boot-configuration-processor](https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-tools/spring-boot-configuration-processor)|N/A|08/22/23|Mark Pollack |Apache-2.0|N/A|
 |[org.springframework.boot:spring-boot-starter](https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-starters/spring-boot-starter)|N/A|08/31/23|Craig Walls |Apache-2.0|N/A|
 |[org.springframework.boot:spring-boot-starter-logging](https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-starters/spring-boot-starter-logging)|N/A|08/05/23|Mark Pollack |Apache-2.0|N/A|
