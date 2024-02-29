@@ -2,7 +2,7 @@ repo_name: ankurkumarz/spring-ai
 report_id: 8921bac7eb9a017841756791a1404c96
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T08:24:28+00:00'
+timestamp: '2024-02-29T19:01:33+00:00'
 requested_by: habuma
 provider: github
 branch: main
@@ -68,6 +68,19 @@ tools:
   detection_source: spring-ai-azure-openai/pom.xml
   last_updated_by: Mark Pollack
   last_updated_on: 2023-08-05 21:15:30.000000000 Z
+- name: Milvus
+  description: An Open Source Vector Similarity Search Engine
+  website_url: https://milvus.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Vector Databases
+  image_url: https://img.stackshare.io/service/11462/UYESE3g6_400x400.jpg
+  detection_source_url: https://github.com/ankurkumarz/spring-ai/blob/main/vector-stores/spring-ai-milvus-store/src/test/resources/docker-compose.yml
+  detection_source: vector-stores/spring-ai-milvus-store/src/test/resources/docker-compose.yml
+  last_updated_by: Christian Tzolov
+  last_updated_on: 2023-09-19 12:12:44.000000000 Z
 - name: Minio
   description: AWS S3 open source alternative written in Go
   website_url: https://minio.io/
@@ -185,19 +198,6 @@ tools:
   detection_source: LICENSE.txt
   last_updated_by: Mark Pollack
   last_updated_on: 2023-07-24 23:37:06.000000000 Z
-- name: Milvus
-  description: An Open Source Vector Similarity Search Engine
-  website_url: https://milvus.io/
-  license: Apache-2.0
-  open_source: true
-  hosted_saas: false
-  category: Application Utilities
-  sub_category: Search Engines
-  image_url: https://img.stackshare.io/service/11462/UYESE3g6_400x400.jpg
-  detection_source_url: https://github.com/ankurkumarz/spring-ai/blob/main/vector-stores/spring-ai-milvus-store/src/test/resources/docker-compose.yml
-  detection_source: vector-stores/spring-ai-milvus-store/src/test/resources/docker-compose.yml
-  last_updated_by: Christian Tzolov
-  last_updated_on: 2023-09-19 12:12:44.000000000 Z
 - name: Shell
   description: A shell is a text-based terminal, used for manipulating programs and
     files. Shell scripts typically manage program execution.
@@ -285,6 +285,19 @@ tools:
   detection_source: vector-stores/spring-ai-pgvector-store/pom.xml
   last_updated_by: Christian Tzolov
   last_updated_on: 2023-09-15 20:39:01.000000000 Z
+  vulnerabilities:
+  - name: org.postgresql:postgresql vulnerable to SQL Injection via line comment generation
+    cve_id: CVE-2024-1597
+    cve_url: https://github.com/advisories/GHSA-24rp-q3w6-vc56
+    detected_date: Feb 22
+    severity: critical
+    first_patched: 42.6.1
+  - name: 'Duplicate Advisory: SQL injection in pgjdbc'
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-xfg6-62px-cxc2
+    detected_date: Feb 21
+    severity: critical
+    first_patched: 42.6.1
 - name: org.springframework.boot:spring-boot-configuration-processor
   description: Spring Boot Configuration Processor
   license: Apache-2.0
